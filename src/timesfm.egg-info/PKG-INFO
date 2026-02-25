@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: timesfm
+Version: 2.0.0
+Summary: A time series foundation model.
+Author-email: Rajat Sen <senrajat@google.com>, Yichen Zhou <yichenzhou@google.com>, Abhimanyu Das <abhidas@google.com>, Petros Mol <pmol@google.com>, Michael Chertushkin <chertushkinmichael@gmail.com>
+License: Apache-2.0
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: huggingface_hub[cli]>=0.23.0
+Requires-Dist: safetensors>=0.5.3
+Requires-Dist: yfinance>=1.2.0
+Provides-Extra: torch
+Requires-Dist: torch>=2.0.0; extra == "torch"
+Provides-Extra: flax
+Requires-Dist: flax; extra == "flax"
+Requires-Dist: optax; extra == "flax"
+Requires-Dist: einshape; extra == "flax"
+Requires-Dist: orbax-checkpoint; extra == "flax"
+Requires-Dist: jaxtyping; extra == "flax"
+Requires-Dist: jax[cuda]; extra == "flax"
+Provides-Extra: xreg
+Requires-Dist: jax[cuda]; extra == "xreg"
+Requires-Dist: scikit-learn; extra == "xreg"
+Dynamic: license-file
+
+# trading_stock_forecaster
+Uses foundational time series forecaster https://github.com/google-research/timesfm to predict stock values
