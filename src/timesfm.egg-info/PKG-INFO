@@ -10,6 +10,7 @@ License-File: LICENSE
 Requires-Dist: numpy>=1.26.4
 Requires-Dist: huggingface_hub[cli]>=0.23.0
 Requires-Dist: safetensors>=0.5.3
+Requires-Dist: matplotlib>=3.9.0
 Requires-Dist: yfinance>=1.2.0
 Provides-Extra: torch
 Requires-Dist: torch>=2.0.0; extra == "torch"
