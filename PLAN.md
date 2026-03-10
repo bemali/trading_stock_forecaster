@@ -10,7 +10,6 @@
 
 #### output
 - a prediction: initially qualitative for the stock based on the stock
-- baseline forecast: from the forecaster 
 - underlying reasoning
 - validation based on previous instances (overlayed on the graph perhaps?)
 
